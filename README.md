@@ -11,7 +11,6 @@ Specifically, the implement of our encoding framework is written by Python3 in [
 We select several clips of videos, which are captured by a high-speed camera and processed into slow motion from [iX Cameras High-speed Video Gallery](https://www.ix-cameras.com/high_speed_camera_slow_motion_video_gallery.php).
 Our framework can output asynchronous events for human vision (reconstruction) and machine vision (dynamic information).
 ![Visualization](Visualization/visualization_results.png?raw=true "Visualization")
-![Demo](Demo/demo_for_crashing_car.mp4?raw=true "Demo")
 
 # Requirement
 To run the simulators, Visual Studio for C++ is recommended.

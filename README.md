@@ -5,7 +5,12 @@ Our framework represents as follow:
 
 # Framework
 ![Framework](Framework/framework.png?raw=true "framework")
-Specifically, the implement of our encoding framework is written by Python3 as [RetinaSimulator.py](Simulator/RetinaSimulator.py) and a C++ approximation is written in [RetinaSimulator.cpp](Simulator/RetinaSimulator.cpp).
+Specifically, the implement of our encoding framework is written by Python3 in [RetinaSimulator.py](Simulator/RetinaSimulator.py) and a C++ approximation is written in [RetinaSimulator.cpp](Simulator/RetinaSimulator.cpp).
+
+# Dataset and Results
+We select several clips of videos, which are captured by a high-speed camera and processed into slow motion from [iX Cameras High-speed Video Gallery](https://www.ix-cameras.com/high_speed_camera_slow_motion_video_gallery.php).
+Our framework can output asynchronous events for human vision (reconstruction) and machine vision (dynamic information).
+![Visualization](Visualization/visualization_results.png?raw=true "framework")
 
 # Requirement
 To run the simulators, Visual Studio for C++ is recommended.
